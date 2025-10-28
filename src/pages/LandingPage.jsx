@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { StyleSheetManager, keyframes } from 'styled-components';
 import isPropValid from '@emotion/is-prop-valid';
+import { Link } from 'react-router-dom';
 
 const LandingPageContainer = styled.div`
   max-width: 1200px;
@@ -208,8 +209,12 @@ function LandingPage() {
             Your ultimate solution for seamless ticket management. Create, view, edit, and delete tickets with ease.
           </Description>
           <div>
+            <Link to="/auth/login">
             <CallToActionButton>Login</CallToActionButton>
+            </Link>
+            <Link to="/auth/signup">
             <CallToActionButton>Get Started</CallToActionButton>
+            </Link>
           </div>
         </HeroContent>
         <WavyBackground />
