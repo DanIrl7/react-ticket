@@ -62,6 +62,7 @@ const CallToActionButton = styled.button`
 
   &:hover {
     background-color: var(--color-white);
+    color: var(--color-primary-dark);
     transform: translateY(-2px);
   }
 `;
