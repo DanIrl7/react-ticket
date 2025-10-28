@@ -61,7 +61,7 @@ const CallToActionButton = styled.button`
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background-color: var(--color-primary-light);
+    background-color: var(--color-white);
     transform: translateY(-2px);
   }
 `;
