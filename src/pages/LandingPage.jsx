@@ -50,10 +50,10 @@ const Description = styled.p`
 `;
 
 const CallToActionButton = styled.button`
-  background-color: var(--color-accent);
+  background-color: var(--color-primary-dark);
   color: var(--color-white);
   padding: var(--spacing-sm) var(--spacing-lg);
-  border: none;
+  border: 3px solid var(--color-white);
   border-radius: var(--border-radius-sm);
   font-size: var(--font-size-medium);
   cursor: pointer;
